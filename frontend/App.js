@@ -22,7 +22,7 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-const SEARCH_ENDPOINT = "https://po6sqvzj35.execute-api.eu-central-1.amazonaws.com/dev/search-jobs";
+const SEARCH_ENDPOINT = "<your-api-endpoint>";
 
 const CATEGORIES = [
   "Marketing",

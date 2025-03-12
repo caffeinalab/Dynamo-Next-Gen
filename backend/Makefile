@@ -65,10 +65,3 @@ deploy-opensearch:
 .PHONY: stream-function-logs
 stream-function-logs:
 	aws logs tail /aws/lambda/dng--$(FN) --follow
-
-
-.PHONY: clear-opensearch
-clear-opensearch:
-	curl -X DELETE "https://search-dynamo-next-gen-opensearch-6ac5oloug2ysx4lqt72mbdvv5e.eu-central-1.es.amazonaws.com/resume-jobs-data-index" \
-		-u user:StrongPassword123!
-
