@@ -1,9 +1,0 @@
-sam-template.yaml
-.aws-sam
-functions/*/package
-functions/*/deployment_pkg.zip
-lambdas/*/package
-lambdas/*/python
-lambdas/*/*.zip
-tests/env.json
-data-manager/
